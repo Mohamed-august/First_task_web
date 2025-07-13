@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Jadoo</title>
+
+<style>
+body{
+     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+      background: url('Decore.png') no-repeat;
+      background-size: 1000px;
+      background-position: right top;
+      background-attachment: fixed;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding-left: 200px;
+        padding-right: 200px;
+      background-color: white;
+      gap:20px;
+
+}
+h1{
+  font-family: 'Volkhov', serif;
+  font-size: 70px;
+
+}
+h5{
+  
+    font-size: 30px;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: transparent;
+  
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  color:black;
+
+}
+nav ul a{
+    color:black;
+    font-style: normal;
+    font-display: auto;
+    font-size:30px;
+    text-decoration:none;
+
+}
+.SmallButton{
+    border-style:  groove;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+
+}
+.front{
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: transparent;
+}
+.findmore h4{
+    flex-direction: column;
+    font-size:20px;
+}
+.findmore h1{
+    flex-direction: column;
+    font-size:84px;
+}
+.findmore p{
+    font-size:16px;
+}
+.playbutton{
+    width:52px;
+    height:52px;
+    border-radius: 30px;
+    display:flex;
+    background-color: #DF6951;
+    border-color: #DF6951;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+
+}
+.findmore .SmallButton{
+    background-color: orange;
+    text-decoration: none;
+    color:white;
+    border-color: white;
+}
+.container_list{
+    padding:20px;
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:56px;
+
+}
+.group{
+     list-style: none;
+     display: flex;
+     gap: 32px;
+     align-items: center;
+}
+.container{
+  
+ flex-direction:column;
+ background-color: white;
+ height:400px;
+  gap: 16px;
+ box-shadow: 0px 3px  ;
+ color:grey;
+ border-radius: 20px;
+ justify-content: center;
+}
+.container1{
+    
+ flex-direction:column;
+ background-color: white;
+ height:457px;
+ box-shadow: 0px 3px  ;
+ color:grey;
+ justify-content: center;
+ border-radius: 20px;
+}
+.container1 img{
+    border-radius: 10px;
+    height:350px;
+    
+}
+.steps-section{
+    background-color: transparent;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+    border-radius: 20px;
+    width: 600px;
+    border-color: gray;
+    
+}
+.steps-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 3px  ;
+    color:grey;
+    border-radius: 10px;
+}
+.steps-section div div{
+    border-top: 2px solid #ccc;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+.steps-section span{
+    padding-left: 260px;
+    border-color: grey;
+    color:grey;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50%;
+
+}
+@media (max-width: 1068px) {
+    .steps-section {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .findmore{
+        padding-left: 200px;
+    }
+}
+.tele
+{
+    padding-top: 70px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>    
+    <img src="Logo.png" alt="logo here">
+       <ul>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#"> Hotel </a></li>
+          <li><a href="#">Flight</a></li>
+          <li><a href="#">Bookings</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#" class="SmallButton">Sign up</a></li>
+
+
+
+        </ul>
+</nav> 
+
+<div class="front">
+
+<div class="findmore">
+<h4 style="color:#DF6951">Best Destinations around the world</h4>
+<h1 class="Travel">Travel, enjoy and live a new and full life</h1>
+<p>
+    Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening.
+    Park gate sell they west hard for the.
+</p>
+<nav>
+<a href="#" class="SmallButton">Find out more</a>
+<nav style="gap:10px"><a href="#" class="playbutton">&#9658;</a>
+<p>Play Demo</p></nav>
+
+</nav>
+
+</div>
+
+<img src="Traveller 1.png" alt="traveller">
+</div>
+</header>
+
+
+<div class="container_list">
+<h5>Category</h5>
+<h1>We Offer Best Services</h1>
+<ul class="group">
+<li>
+    <div class="container" >
+        <img src="satellite.png"  alt="satellite">
+        <h3>Calculated Weather </h3>
+        <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+    </div>
+</li>
+<li>
+    <div class="container">
+        <img src="plane.png"  alt="plane">
+        <h3>Best Flights </h3>
+        <p>Engrossed listening. Park gate sell they west hard for the.</p>
+    </div>
+</li>
+<li>
+    <div class="container">
+        <img src="mic.png"  alt="microphone">
+        <h3>Local Events </h3>
+        <p>Barton vanity itself do in it. Prefered to men it engrossed listening. </p>
+    </div>
+</li>
+<li>
+    <div class="container">
+        <img src="cog.png"  alt="cog">
+        <h3>Customization </h3>
+        <p>We deliver outsourced aviation services for military customers.</p>
+    </div>
+</li>
+</ul>
+
+</div>
+
+
+
+<div class="container_list">
+<h5>Top Selling</h5>
+<h1>Best Destinations</h1>
+<ul class="group">
+<li>
+    <div class="container1">
+        <img src="colosseo.png"  alt="il colosseo">
+        <h3>Rome, Italy</h3>
+        <p>10 days trip</p>
+    </div>
+</li>
+<li>
+    <div class="container1">
+        <img src="uk.jpg"  alt="uk">
+        <h3>London , UK</h3>
+        <p>12 Days Trip</p>
+    </div>
+</li>
+<li>
+    <div class="container1">
+        <img src="FullEurope.png"  alt="EUROPEEEE">
+        <h3>Full Europe </h3>
+        <p>28 days trip </p>
+    </div>
+</li>
+
+</ul>
+
+</div>
+
+
+<nav>
+<div style="padding-left: 260px;">
+<h5>Easy and Fast</h5>
+<h1>Book your next trip in 3 easy steps</h1>
+<ul style="list-style: none; display: flex; gap: 32px; align-items: center;flex-direction: column;">
+    <li>
+        <nav style="gap:16px;">
+            <img src="square.png" alt="square">
+            <div>
+                <h2>Choose Destination</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+            </div>
+        </nav>
+    </li>
+     <li>
+        <nav style="gap:16px;">
+            <img src="pay.png" alt="pay">
+            <div>
+                <h2>Make Payments</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+            </div>
+        </nav>
+    </li>
+     <li>
+        <nav style="gap:16px;">
+            <img src="car.png" alt="car">
+            <div>
+                <h2>Reach Airport on Selected Date</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+            </div>
+        </nav>
+    </li>
+</ul>
+</div>
+
+<div>
+    <img src="trips.jpg" alt="showcase">
+    <div style="
+  width: 300px;
+  height: 200px;
+  background: url(trips2.png) no-repeat right bottom;
+  background-size: cover;
+  padding-top:20px;
+  "></div>
+</div>
+
+
+
+</nav>
+
+
+
+<nav>
+<div>
+<h5>Testimonials</h5>
+<h1>What people say about Us.</h1>
+
+<img src="Points.png" alt="points">
+
+</div>
+<nav class="steps-section">
+    <div style="padding-left: 260px;">
+    
+    <img src="Mike.png" alt="review" class="playbutton">
+    <p style="color:black">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+    <h2 style="color:black">Mike</h2>
+    <h3 style="color:black">Travel Blogger</h3>
+    </div>
+    <span>
+         <h2 style="color:black">Chris Brown</h2>
+    <h3 style="color:black">CEO of Red Button</h3>
+    </span>
+
+   
+
+    
+</nav>
+
+
+</nav> 
+
+<div style="background: url(Pagination.png) no-repeat right;">
+
+<nav style="gap:30px;display: flex;width:100%;justify-content: center;align-items: center;flex-wrap: wrap;">
+    <img src="axon.png" alt="logo here">
+    <img src="jetstar.png" alt="logo here">
+    <img src="expedia.png" alt="logo here">
+    <img src="quantas.png" alt="logo here">
+    <img src="italiaa.png" alt="logo here">
+</nav>
+
+<div class="tele" style="background: url('telegram.png') no-repeat right;">
+
+<div style="padding: 20px; text-align: center; font-size:70px">
+    <h5>Subscribe to get information, latest news and others</h5>
+    <h5>interesting offres form Jadoo</h5>
+    <input type="email" placeholder="Enter your email" style="padding: 10px; width: 300px; border-radius: 5px; border: 1px solid #ccc;">
+    <button style="padding: 10px 20px; border-radius: 5px; background-color: #DF6951; color: white; border: none;">Subscribe</button>
+</div>
+
+
+<nav style="text-align: left;justify-content: center;gap:60px;">
+<div>
+    <h5 style="font-size: 50px;">Jadoo</h5>
+<p>Book your trip in minute, get full
+Control for much longer.</p>
+</div>
+<div >
+    <h2>Company</h2>
+    <ul style="list-style: none;display: flex; flex-direction: column; gap: 8px;">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Mobile</a></li>
+    </ul>
+    </div>
+<div>
+    <h2>Contact</h2>
+    <ul style="list-style: none;display: flex; flex-direction: column; gap: 8px;">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Affiliates</a></li>
+        </ul>
+        </div>
+
+<div>
+    <h2>More</h2>
+    <ul style="list-style: none;display: flex; flex-direction: column; gap: 8px;">
+        <li><a href="#">Airline Machine</a></li>
+        <li><a href="#">Airlines</a></li>
+        <li><a href="#">Low Fare tips</a></li>
+        </ul>
+</div>
+
+<div>
+
+<div style="display: flex; gap: 16px; margin-top: 16px;">
+    <a href="#"><img src="Social.png" alt="Social" ></a>
+    </div>
+
+    <div>
+        <h5>Discover our app</h5>
+        <img src="Google Play.png" alt="google play">
+        <img src="Play Store.png" alt="play store">
+    </div>
+
+</div>
+
+
+</nav>
+
+    
+    
+    <footer>
+    <p>All rights reserved@jadoo.co</p>
+    </footer>
+
+</body>
+</html>
